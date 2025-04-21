@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Update the viewport meta tag in your head section -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Happy Birthday, My Love ❤️</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, My Love 🎉</h1>
+        <p class="subtitle">Countdown to your special day - June 20</p>
+
+        <!-- Countdown Timer -->
+        <div id="countdown" class="countdown-container">
+            <div class="countdown-box">
+                <div id="days" class="countdown-number">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-box">
+                <div id="hours" class="countdown-number">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-box">
+                <div id="minutes" class="countdown-number">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-box">
+                <div id="seconds" class="countdown-number">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+
+        <!-- Love Story Timeline -->
+        <section id="timeline">
+            <h2 class="section-title">Our Love Story Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>May 1, 2020</h3>
+                    <h4>Our First Date</h4>
+                    <p>The day we met over coffee and sparks flew.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>July 15, 2021</h3>
+                    <h4>First Trip Together</h4>
+                    <p>Explored the beautiful mountains side by side.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>December 24, 2022</h3>
+                    <h4>Our First Christmas</h4>
+                    <p>Exchanged gifts and made memories forever.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memory Lane Gallery -->
+        <section id="gallery">
+            <h2 class="section-title">Memory Lane Gallery</h2>
+            <div class="gallery-container" style="position: relative;">
+                <button class="gallery-nav prev">←</button>
+                <div class="gallery-grid" id="photo-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/images/photo1.jpeg" alt="Black shirt with sunglasses" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo2.jpg" alt="Pink shirt with sunglasses" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo3.jpg" alt="Checkered shirt with glasses" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo4.jpg" alt="Blue traditional wear" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo5.png" alt="Red music event t-shirt" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo1.jpeg" alt="Black shirt with sunglasses" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo2.jpg" alt="Pink shirt with sunglasses" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo3.jpg" alt="Checkered shirt with glasses" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo4.jpg" alt="Blue traditional wear" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo5.png" alt="Red music event t-shirt" loading="lazy">
+                    </div>
+                </div>
+                <button class="gallery-nav next">→</button>
+            </div>
+        </section>
+
+        <!-- Love Quiz -->
+        <section id="quiz">
+            <h2 class="section-title">Love Quiz</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </section>
+
+        <!-- Birthday Wishes Wall -->
+        <section id="wishes">
+            <h2 class="section-title">Birthday Wishes Wall</h2>
+            <div class="wishes-container">
+                <textarea id="wish-input" placeholder="Write your birthday wish here..."></textarea>
+                <button id="add-wish" class="primary-button">Add Wish</button>
+                <div id="wishes-wall" class="wishes-wall"></div>
+            </div>
+        </section>
+
+        <!-- Make a Wish -->
+        <section id="make-wish">
+            <h2 class="section-title">Make A Wish</h2>
+            <button id="wish-button" class="primary-button">Click to Make a Wish</button>
+        </section>
+
+        <!-- Love Meter Section -->
+        <section id="love-meter">
+            <h2 class="section-title">Our Love Meter ❤️</h2>
+            <div class="meter-container">
+                <div class="meter-fill"></div>
+                <div class="meter-text">0%</div>
+            </div>
+        </section>
+
+        <!-- Surprise Gift Section -->
+        <section id="surprise-gift">
+            <h2 class="section-title">Surprise Gift 🎁</h2>
+            <button id="reveal-gift" class="primary-button">Reveal Your Gift</button>
+            <div id="gift-reveal" class="gift-reveal"></div>
+        </section>
+
+        <!-- Virtual Hug Section -->
+        <section id="virtual-hug">
+            <h2 class="section-title">Virtual Hug</h2>
+            <button id="send-hug" class="primary-button">Send a Virtual Hug 🤗</button>
+            <div id="hug-animation" class="hug-animation"></div>
+        </section>
+
+         <!-- Love Letters Section -->
+         <section id="love-letters" class="love-letters-section">
+            <h2 class="section-title">Love Letters</h2>
+            <div class="love-letter-container">
+                <div id="letter-content" class="letter-content"></div>
+                <button id="next-letter" class="primary-button">Next Letter ❤️</button>
+            </div>
+        </section>
+
+        <!-- Future Goals Section -->
+        <section id="future-goals">
+            <h2 class="section-title">Future Goals & Dreams</h2>
+            <ul class="goals-list">
+                <li>Travel to 5 new countries together</li>
+                <li>Buy our first home</li>
+                <li>Learn to cook new recipes as a team</li>
+                <li>Celebrate 10 wonderful years</li>
+                <li>Start a family</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/countdown.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/quiz.js"></script>
+
+    <!-- Other sections remain unchanged -->
+
+    <!-- Copyright Section -->
+    <footer class="copyright">
+        <div class="container">
+            <p>Made with ❤️ by Jisnu | © <span id="year"></span> All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Add this to your existing scripts -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
