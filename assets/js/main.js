@@ -223,7 +223,8 @@ document.addEventListener('DOMContentLoaded', function() {
             giftReveal.innerHTML = `
                 <div class="gift-appear">
                     <h3>🎉 Happy Birthday! 🎉</h3>
-                    <p>Your special gift is a collection of our memories together!</p>
+                    <p>Gift is waitng.....</p>
+                    <p>Another special gift is a collection of our memories together!</p>
                     <div class="gift-image">🎁 💝 🎊</div>
                 </div>
             `;
@@ -243,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
         hugAnimation.classList.add('hug-active');
         
         setTimeout(() => {
-            hugAnimation.innerHTML += '<p>Hug received with love! 💖</p>';
+            hugAnimation.innerHTML += '<p>Amar hoito tomai hug korar Moto khomota nei ba amar kopal a nei .. tai Dur thekei nio virtual hug </p>';
             hugButton.disabled = false;
         }, 1000);
         
