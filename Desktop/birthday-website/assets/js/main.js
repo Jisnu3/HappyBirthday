@@ -255,11 +255,13 @@ document.addEventListener('DOMContentLoaded', function() {
 // Add this to your existing JavaScript file
 document.addEventListener('DOMContentLoaded', function() {
     const letters = [
-        "Your smile lights up my world like a thousand stars in the night sky. Every time I see it, I fall in love all over again.",
-        "The way you care for others with such genuine compassion makes my heart swell with pride and love.",
-        "Your strength and determination inspire me every single day. You make me want to be a better person.",
-        "The sound of your laughter is my favorite melody. It's the sweetest music I've ever heard.",
-        "Your presence in my life is the greatest gift I could have ever asked for. You make every day magical."
+        " Kemon acho , ki korcho kichui jani na . just ai tuku i chai tumi valo thako..",
+        "ami sodhu tomai mon theke valobesi chi.. r kichu chai ni tomar theke bas ai tuku atleast dio....",
+        "Otherwise more jabo.. amni tei koto din kotha hoi ni.. koto kotha share kora hoi ni.. .",
+        "Fire aso pleaase abar amar life a. r par chi na go ami ",
+        "Tomar sei purono Bandor aj o wait kor che tar sei bandri r jonnooo.. asbe na tomar bandor ar kache fire .. kotha bol be na tar sathe abar",
+        "Your presence in my life is the greatest gift I could have ever asked for. You make every day magical.",
+        "R nei."  
     ];
 
     const letterContent = document.getElementById('letter-content');
@@ -282,3 +284,34 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+
+function updateCountdown() {
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const birthday = new Date(currentYear, 5, 20); // Month is 0-based, so 5 = June
+    // If today's date is past June 20, set target to next year
+    if (now > birthday) {
+        birthday.setFullYear(currentYear + 1);
+    }
+    
+    const diff = birthday - now;
+    
+    // Convert to days, hours, minutes, seconds
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    
+    // Update the display
+    document.getElementById('days').innerText = String(days).padStart(2, '0');
+    document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+    document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+    document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+}
+
+// Update countdown every second
+setInterval(updateCountdown, 1000);
+
+// Initial call to avoid delay
+updateCountdown();
