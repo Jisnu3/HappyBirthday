@@ -18,7 +18,7 @@
 
 body {
     background: linear-gradient(135deg, var(--background-color), #FFE8EE);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', cursive;
     color: var(--text-color);
     line-height: 1.6;
     position: relative;
