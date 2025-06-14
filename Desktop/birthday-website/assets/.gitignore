@@ -1,0 +1,28 @@
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore hidden system folders
+.vscode/
+.idea/
+.DS_Store
+node_modules/
+*.lnk
+*.exe
+*.msi
+*.zip
+*.bat
+*.dat
+*.log
+.cache/
+.android/
+AppData/
+Saved Games/
+Documents/
+Downloads/
+Music/
+Pictures/
+Videos/
+
+# Git filter-repo leftovers
+.git-filter-repo/
