@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtn = document.querySelector('.gallery-nav.next');
     
     // Array of all images
-    const images = [
+       const images = [
         { src: 'assets/images/01.jpg' },
         { src: 'assets/images/1.jpg' },
         { src: 'assets/images/02.jpg'},
@@ -28,13 +28,27 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'assets/images/020.jpg'},
         { src: 'assets/images/021.jpg'},
         { src: 'assets/images/022.jpg'},
+        { src: 'assets/images/0023.jpg'},
         { src: 'assets/images/023.jpg'},
         { src: 'assets/images/024.jpg'},
         { src: 'assets/images/025.jpg'},
         { src: 'assets/images/026.jpg'},
         { src: 'assets/images/027.jpg'},
         { src: 'assets/images/029.jpg'},
-        { src: 'assets/images/030.jpg'}
+        { src: 'assets/images/030.jpg'},
+        { src: 'assets/images/031.jpg'},
+        { src: 'assets/images/032.jpg'},
+        { src: 'assets/images/033.jpg'},
+        { src: 'assets/images/034.jpg'},
+        { src: 'assets/images/035.jpg'},
+        { src: 'assets/images/036.jpg'},
+        { src: 'assets/images/037.jpg'},
+        { src: 'assets/images/038.jpg'},
+        { src: 'assets/images/039.jpg'},
+        { src: 'assets/images/040.jpg'},
+        { src: 'assets/images/041.jpg'},
+        { src: 'assets/images/042.jpg'}
+
     ];
 
     let currentIndex = 0;
