@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'assets/images/010.jpg'},
         { src: 'assets/images/011.jpg'},
         { src: 'assets/images/012.jpg'},
-        { src: 'assets/images/0013.jpg'},
+        { src: 'assets/images/050.jpg'},
         { src: 'assets/images/013.jpg'},
         { src: 'assets/images/014.jpg'},
         { src: 'assets/images/015.jpg'},
