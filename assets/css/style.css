@@ -657,16 +657,21 @@ section {
 /* Add this to your existing CSS */
 .container h1 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4.2rem;
     margin: 2rem 0 1rem;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1rem;
     position: relative;
-    text-shadow: 2px 2px 4px rgba(255, 20, 147, 0.2);
+    color:#4d010133;
+    text-shadow: 2px 2px 4px #09010133;
     animation: fadeInDown 1s ease-out;
+}
+.container p{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .container h1::after {
