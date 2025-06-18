@@ -657,7 +657,7 @@ section {
 /* Add this to your existing CSS */
 .container h1 {
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 3.5rem;
     margin: 2rem 0 1rem;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
