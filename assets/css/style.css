@@ -832,6 +832,7 @@ section {
     transition: all 0.3s ease;
     position: relative;
     border: 1px solid rgba(255, 143, 177, 0.2);
+    font-family: serif;
 }
 
 
