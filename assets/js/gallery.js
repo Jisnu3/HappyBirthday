@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtn = document.querySelector('.gallery-nav.next');
     
     // Array of all images
-    const images = [
+       const images = [
         { src: 'assets/images/01.jpg' },
         { src: 'assets/images/1.jpg' },
         { src: 'assets/images/02.jpg'},
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'assets/images/010.jpg'},
         { src: 'assets/images/011.jpg'},
         { src: 'assets/images/012.jpg'},
-        { src: 'assets/images/0013.jpg'},
+        { src: 'assets/images/050.jpg'},
         { src: 'assets/images/013.jpg'},
         { src: 'assets/images/014.jpg'},
         { src: 'assets/images/015.jpg'},
@@ -109,23 +109,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Touch support
     let touchStartX = 0;
     let touchEndX = 0;
-    let touchStartTime = 0;
-    let touchEndTime = 0;
 
     gallery.addEventListener('touchstart', e => {
         touchStartX = e.changedTouches[0].screenX;
-        touchStartTime = Date.now();
     });
 
     gallery.addEventListener('touchend', e => {
         touchEndX = e.changedTouches[0].screenX;
-        touchEndTime = Date.now();
-        const deltaX = touchEndX - touchStartX;
-        const deltaTime = touchEndTime - touchStartTime;
-        if (Math.abs(deltaX) > 40 && deltaTime < 400) {
-            if (deltaX < 0) rotateGallery(1); // Swipe left
-            if (deltaX > 0) rotateGallery(-1); // Swipe right
-        }
+        if (touchEndX < touchStartX) rotateGallery(1); // Swipe left
+        if (touchEndX > touchStartX) rotateGallery(-1); // Swipe right
     });
 
     // Keyboard support
