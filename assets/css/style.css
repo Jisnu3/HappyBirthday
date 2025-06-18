@@ -657,12 +657,12 @@ section {
 /* Add this to your existing CSS */
 .container h1 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin: 2rem 0 1rem;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     background-clip: text;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:cursive;
     padding: 1rem;
     position: relative;
     color:#4d010133;
