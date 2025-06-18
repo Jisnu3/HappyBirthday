@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const letters = [
         " Kemon acho , ki korcho kichui jani na . just ai tuku i chai tumi valo thako..",
-        "Tumi i amar life .. vlobasle tomakei vlobasbo.. ato din jokhon bese chi ak o basbooo..You are my everything"
+        "Tumi i amar life .. vlobasle tomakei vlobasbo.. ato din jokhon bese chi ak o basbooo..You are my everything",
         "ami sodhu tomai mon theke valobesi chi.. r kichu chai ni tomar theke bas ai tuku atleast dio....",
         "Otherwise more jabo.. amni tei koto din kotha hoi ni.. koto kotha share kora hoi ni.. .",
         "Fire aso pleaase abar amar life a. r par chi na go ami ",
