@@ -257,10 +257,13 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const letters = [
         " Kemon acho , ki korcho kichui jani na . just ai tuku i chai tumi valo thako..",
+        "Tumi i amar life .. vlobasle tomakei vlobasbo.. ato din jokhon bese chi ak o basbooo..You are my everything"
         "ami sodhu tomai mon theke valobesi chi.. r kichu chai ni tomar theke bas ai tuku atleast dio....",
         "Otherwise more jabo.. amni tei koto din kotha hoi ni.. koto kotha share kora hoi ni.. .",
         "Fire aso pleaase abar amar life a. r par chi na go ami ",
         "Tomar sei purono Bandor aj o wait kor che tar sei bandri r jonnooo.. asbe na tomar bandor ar kache fire .. kotha bol be na tar sathe abar",
+        "Jodi amai vlobaso,bondho vabo,amr kotha ai 2 mas a jodi akbar o mone ase then amai wp,call and jekhan a jekhan a block kore cho sob jaiga theke unblock kore dio...",
+        "And jodi ichhe kore mon theke then nije theke Massage koro Please.. PLEASEEEEEEE.....PLEASEEEE",
         "Your presence in my life is the greatest gift I could have ever asked for. You make every day magical.",
         "R nei."  
     ];
