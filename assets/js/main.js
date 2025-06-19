@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {
             giftReveal.innerHTML = `
                 <div class="gift-appear">
                     <h3>🎉 Happy Birthday! 🎉</h3>
-                    <p>Surprise gift Surprize i thak... </p>
+                    <p>Surprise gift Surprise i thak... </p>
                     <p>Gift is waitng(Jedin dekha hobe sei din debo surprise).....</p>
                     <p>Another special gift is collection of our 5 years memories together!</p>
                     <div class="gift-image">🎁 💝 🎊</div>
